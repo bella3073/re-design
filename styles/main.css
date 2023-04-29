@@ -1,0 +1,79 @@
+body {
+  background-image: url(../images/main02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  /* logo */
+}
+header nav a {
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  line-height: 2;
+  font-weight: 700;
+  color: #fff;
+}
+header .h_right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: right;
+  align-items: center;
+  width: 360px;
+}
+header .h_right select {
+  border: none;
+  outline: none;
+  padding: 2px 5px;
+  background: none;
+  font-weight: 700;
+  color: #fff;
+}
+header .h_right select option {
+  color: #000;
+}
+header .h_right .inform_g {
+  padding: 10px 25px;
+  position: relative;
+}
+header .h_right .inform_g a {
+  display: inline-block;
+  width: 25px;
+}
+header .h_right .inform_g a img {
+  width: 100%;
+}
+header .h_right .inform_g .inform {
+  background: rgba(246, 83, 125, 0.3);
+  padding: 6px 3px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 15px rgba(246, 83, 125, 0.5529411765);
+}
+header .h_right .inform_g .inform a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  font-weight: 700;
+  padding: 8px 0;
+  margin-bottom: 4px;
+  color: #fff;
+}
+header .h_right .inform_g .inform a:last-child {
+  margin-bottom: 0;
+}/*# sourceMappingURL=main.css.map */
